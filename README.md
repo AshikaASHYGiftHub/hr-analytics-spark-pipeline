@@ -138,18 +138,16 @@ Tableau, Power BI, or Excel.
 ## Repository Structure
 
 hr-analytics-spark-pipeline/
-├── Dataset/          # Data source links (raw files not included)
 ├── Outputs/          # Analytical output CSV files
 │   ├── demographics.csv
 │   ├── engagement.csv
 │   ├── compensation.csv
 │   ├── turnover.csv
 │   └── training.csv
-├── Report/           # Full academic project report
+├── Report/
 │   └── HR_Analytics_for_Henry_and_Ashika.pdf
 ├── hr_analytics.ipynb
 └── README.md
-
 ---
 
 ## Future Enhancements
