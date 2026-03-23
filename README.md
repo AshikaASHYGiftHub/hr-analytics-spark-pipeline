@@ -60,21 +60,23 @@ in the `Dataset/` folder before running the notebook.
 
 ### ETL Flow
 
+```
 Raw CSV Files (HR + Payroll)
-↓
+        ↓
 Load into Apache Spark (Distributed DataFrame Reader)
-↓
+        ↓
 Data Cleaning & Standardisation
-↓
+        ↓
 Feature Engineering (Age, Tenure, Pay Grade)
-↓
+        ↓
 Schema Harmonisation (DeptCategory Mapping)
-↓
+        ↓
 Many-to-Many Join (~3M rows)
-↓
+        ↓
 Aggregated Analytical Tables
-↓
+        ↓
 CSV Export (Ready for BI Tools)
+```
 
 ---
 
@@ -137,6 +139,7 @@ Tableau, Power BI, or Excel.
 
 ## Repository Structure
 
+```
 hr-analytics-spark-pipeline/
 ├── Outputs/          # Analytical output CSV files
 │   ├── demographics.csv
@@ -148,7 +151,7 @@ hr-analytics-spark-pipeline/
 │   └── HR_Analytics_for_Henry_and_Ashika.pdf
 ├── hr_analytics.ipynb
 └── README.md
-
+```
 ---
 
 ## Future Enhancements
